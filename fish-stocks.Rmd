@@ -1,0 +1,30 @@
+---
+title: "Fish Stocks"
+author: "Johan Hanekom"
+date: "11/04/2024"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(renv)
+```
+
+```{r include=FALSE}
+renv::init()
+renv::restore()
+```
+
+
+# 🐟 Fish Stocks
+
+📌 Full dataset available at [Our World In Data](https://ourworldindata.org/explorers/fish-stocks)
+
+Fish stocks are measured by their biomass: the number of individuals multiplied by their mass.
+Here it's measured as the biomass of a fish stock divided by the biomass at its maximum sustainable yield – the level at which we can catch the maximum amount of fish without a decline in fish populations. A value of one maximises fish catch without decreasing fish
+populations.
+
+```{r}
+df <- 
+```
+
